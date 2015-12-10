@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import TrixEditor from '../src/react-trix'
 
 class App extends Component {
@@ -28,4 +27,4 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+React.render(<App />, document.getElementById('app'));
