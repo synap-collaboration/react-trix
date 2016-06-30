@@ -52,6 +52,7 @@ class TrixEditor extends React.Component {
         <trix-editor
           id={`editor-${this._id}`}
           input={`input-${this._id}`}
+          toolbar={toolbar}
         />
         <input
           type="hidden"

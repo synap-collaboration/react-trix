@@ -156,7 +156,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        null,
 	        _react2['default'].createElement('trix-editor', {
 	          id: 'editor-' + this._id,
-	          input: 'input-' + this._id
+	          input: 'input-' + this._id,
+	          toolbar: toolbar
 	        }),
 	        _react2['default'].createElement('input', _extends({
 	          type: 'hidden',
