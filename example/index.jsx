@@ -17,7 +17,6 @@ class App extends Component {
       <div>
         <TrixEditor
           value={html}
-          placeholder={"Placeholder text."}
           onChange={this._handleChange}
         />
         <div>
