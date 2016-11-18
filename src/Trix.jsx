@@ -42,10 +42,11 @@ class TrixEditor extends React.Component {
   }
 
   render() {
-    const { toolbar } = this.props
+    const { toolbar, placeholder } = this.props
     const inputProps = {}
 
     if(toolbar) inputProps['toolbar'] = toolbar
+    if(placeholder) inputProps['placeholder'] = placeholder
 
     return(
       <div>
@@ -53,6 +54,7 @@ class TrixEditor extends React.Component {
           id={`editor-${this._id}`}
           input={`input-${this._id}`}
           toolbar={toolbar}
+          placeholder={placeholder}
         />
         <input
           type="hidden"
